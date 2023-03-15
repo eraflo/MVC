@@ -22,26 +22,31 @@ The **"public/index.php"** is the default page of your site, where you managed, 
 
 You can add namespace in the **"composer.json"** file in the root folder.
 
-## Update composer.json
+### Extends
+
+The controller and table you create need to extend from :
+- **Controller** -> AppController
+- **Table** -> Table
+
+### Update composer.json
 
 ```
 composer dump-autoload
 ```
+## Smarty
 
-## Import Smarty
+### Import Smarty
 You need to import Smarty to make the project work :
 ```
 composer require smarty/smarty
 ```
-## Variables Smarty created 
+### Variables Smarty created 
 
 - **$data** : transfer data from a controler to smarty templates
 - **$default** : main view file / base of the site where you import a different content depending of the page you are on 
 - **$title** : site title in tabs
 
-## Extends
+### Config
 
-The controller and table you create need to extend from :
-- **Controller** -> AppController
-- **Table** -> Table
+You can change the config of smarty (actually, only a little bit about caching option) in the **"config/configSmarty.php"** file
 
