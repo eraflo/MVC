@@ -1,0 +1,12 @@
+{
+    "name": "flori/mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/",
+            "Core\\Controllers\\": "core/Controllers",
+            "App\\Controllers\\": "app/Controllers"
+        }
+    },
+    "require": {}
+}
