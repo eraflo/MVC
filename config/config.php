@@ -3,7 +3,7 @@ return array(
     "username" => "root",
     "password" => "",
     "db_host" => "localhost",
-    "db_name" => "prosit7"
+    "db_name" => "test"
 )
 
 ?>

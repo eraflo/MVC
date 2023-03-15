@@ -8,5 +8,7 @@
             "App\\Controllers\\": "app/Controllers"
         }
     },
-    "require": {}
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
 }
