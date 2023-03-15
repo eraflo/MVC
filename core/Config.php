@@ -14,6 +14,10 @@ class Config {
         }
         return $this->settings[$name];
     }
+
+    public function getSettings() {
+        return $this->settings;
+    }
 }
 
 
