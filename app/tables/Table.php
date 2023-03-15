@@ -1,9 +1,10 @@
 <?php 
 namespace App\Tables;
 
+use Core\Models\IModel;
 use Core\Models\Model;
 
-class Table extends Model {
+class Table extends Model implements IModel {
     
 
     public function __construct() {

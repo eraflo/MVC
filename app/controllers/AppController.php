@@ -2,9 +2,10 @@
 namespace App\Controllers;
 
 use Core\Controllers\Controller;
+use Core\Controllers\IController;
 use Core\Db;
 
-class AppController extends Controller {
+abstract class AppController extends Controller implements IController {
 
     protected $template = 'default';
 
