@@ -18,10 +18,21 @@ The parts commented and files with **"Template"** in their name are examples to 
 
 Enter your configuration infos about your connexion to your BDD in the file **"config/config.php"**
 
-The **"public/index.php"** is the default page of your site, where you managed, based on the URL, which controller use and which action you do.
+The **"public/index.php"** is the default page of your site, where you managed, based on the URL, which controller you use and which action you do.
 
 You can add namespace in the **"composer.json"** file in the root folder.
 
+## Update composer.json
+
+```
+composer dump-autoload
+```
+
+## Import Smarty
+You need to import Smarty to make the project work :
+```
+composer require smarty/smarty
+```
 ## Variables Smarty created 
 
 - **$data** : transfer data from a controler to smarty templates
