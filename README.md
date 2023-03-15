@@ -38,3 +38,10 @@ composer require smarty/smarty
 - **$data** : transfer data from a controler to smarty templates
 - **$default** : main view file / base of the site where you import a different content depending of the page you are on 
 - **$title** : site title in tabs
+
+## Extends
+
+The controller and table you create need to extend from :
+- **Controller** -> AppController
+- **Table** -> Table
+
