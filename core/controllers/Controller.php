@@ -14,10 +14,10 @@ abstract class Controller {
     //Afficher un résultat
     protected function render(string $fichier, array $data = []){
         $this->smarty = new Smarty();
-        $this->smarty->setTemplateDir(ROOT.'/views/template/dir');
-        $this->smarty->setConfigDir(ROOT.'/views/config/dir');
-        $this->smarty->setCompileDir(ROOT.'/views/compile/dir');
-        $this->smarty->setCacheDir(ROOT.'/views/cache/dir');
+        $this->smarty->setTemplateDir(ROOT.'/app/views/template/dir');
+        $this->smarty->setConfigDir(ROOT.'/app/views/config/dir');
+        $this->smarty->setCompileDir(ROOT.'/app/views/compile/dir');
+        $this->smarty->setCacheDir(ROOT.'/app/views/cache/dir');
 
         //extract($data);
 
